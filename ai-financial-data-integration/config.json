@@ -1,0 +1,32 @@
+{
+  "base_currency": "INR",
+  "rates": {"USD": 83.0, "EUR": 90.0},
+  "sources": [
+    {
+      "name": "bank",
+      "type": "csv",
+      "path": "sample_data/bank_statement.csv",
+      "date_format": "%d/%m/%Y",
+      "default_currency": "INR",
+      "mapping": {"date": "Date", "description": "Narration", "amount": "Amount", "ref": "RefNo"}
+    },
+    {
+      "name": "card",
+      "type": "json",
+      "path": "sample_data/card_statement.json",
+      "records_key": "transactions",
+      "date_format": "%Y-%m-%d",
+      "expenses_positive": true,
+      "mapping": {"date": "posted", "description": "merchant", "amount": "amt", "currency": "ccy", "ref": "id"}
+    },
+    {
+      "name": "ledger",
+      "type": "sqlite",
+      "path": "sample_data/ledger.db",
+      "query": "SELECT entry_id, entry_date, memo, value FROM entries",
+      "date_format": "%Y-%m-%d",
+      "default_currency": "INR",
+      "mapping": {"date": "entry_date", "description": "memo", "amount": "value", "ref": "entry_id"}
+    }
+  ]
+}

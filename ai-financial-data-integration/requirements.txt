@@ -1,0 +1,2 @@
+# Optional: only needed for the Claude-powered categoriser. Everything else uses the standard library.
+anthropic>=0.40

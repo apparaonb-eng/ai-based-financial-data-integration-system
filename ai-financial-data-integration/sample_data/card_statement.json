@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "id": "K1",
+      "posted": "2026-10-04",
+      "merchant": "NETFLIX",
+      "amt": 649.0,
+      "ccy": "INR"
+    },
+    {
+      "id": "K2",
+      "posted": "2026-10-10",
+      "merchant": "AMAZON MARKETPLACE",
+      "amt": 3499.0,
+      "ccy": "INR"
+    },
+    {
+      "id": "K3",
+      "posted": "2026-10-14",
+      "merchant": "STARBUCKS CAFE",
+      "amt": 6.5,
+      "ccy": "USD"
+    },
+    {
+      "id": "K4",
+      "posted": "2026-10-16",
+      "merchant": "SPOTIFY",
+      "amt": 119.0,
+      "ccy": "INR"
+    },
+    {
+      "id": "K5",
+      "posted": "2026-10-22",
+      "merchant": "CINEMA TICKETS",
+      "amt": 900.0,
+      "ccy": "INR"
+    }
+  ]
+}

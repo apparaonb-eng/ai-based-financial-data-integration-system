@@ -1,0 +1,17 @@
+date,description,amount,currency,amount_base,category,category_by,sources,anomaly,anomaly_reason
+2026-10-01,SALARY ACME CORP,85000.0,INR,85000.0,Salary,rules,"bank,ledger",False,
+2026-10-02,RENT TRANSFER LANDLORD,-25000.0,INR,-25000.0,Rent,rules,bank,False,
+2026-10-03,BIGBASKET GROCERY,-1850.4,INR,-1850.4,Groceries,rules,"bank,ledger",False,
+2026-10-04,NETFLIX,-649.0,INR,-649.0,Entertainment,rules,card,False,
+2026-10-05,SWIGGY ORDER,-420.0,INR,-420.0,Dining,rules,"bank,ledger",False,
+2026-10-07,UBER TRIP,-310.5,INR,-310.5,Transport,rules,bank,False,
+2026-10-09,AIRTEL BROADBAND,-999.0,INR,-999.0,Utilities,rules,bank,False,
+2026-10-10,AMAZON MARKETPLACE,-3499.0,INR,-3499.0,Shopping,rules,card,False,
+2026-10-12,SWIGGY ORDER,-380.0,INR,-380.0,Dining,rules,bank,False,
+2026-10-14,STARBUCKS CAFE,-6.5,USD,-539.5,Dining,rules,card,False,
+2026-10-15,WIRE TRANSFER UNKNOWN BENEFICIARY,-450000.0,INR,-450000.0,Transfer,rules,bank,True,unusually large expense (robust z=6.5)
+2026-10-16,SPOTIFY,-119.0,INR,-119.0,Entertainment,rules,card,False,
+2026-10-18,BIGBASKET GROCERY,-2210.75,INR,-2210.75,Groceries,rules,bank,False,
+2026-10-20,APOLLO PHARMACY,-640.0,INR,-640.0,Healthcare,rules,bank,False,
+2026-10-21,Electricity bill,-1420.0,INR,-1420.0,Utilities,rules,ledger,False,
+2026-10-22,CINEMA TICKETS,-900.0,INR,-900.0,Entertainment,rules,card,False,

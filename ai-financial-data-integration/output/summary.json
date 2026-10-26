@@ -1,0 +1,32 @@
+{
+  "base_currency": "INR",
+  "transactions": 16,
+  "duplicates_merged": 3,
+  "total_income": 85000.0,
+  "total_spend": 488937.15,
+  "net": -403937.15,
+  "by_category": {
+    "Transfer": -450000.0,
+    "Rent": -25000.0,
+    "Groceries": -4061.15,
+    "Shopping": -3499.0,
+    "Utilities": -2419.0,
+    "Entertainment": -1668.0,
+    "Dining": -1339.5,
+    "Healthcare": -640.0,
+    "Transport": -310.5,
+    "Salary": 85000.0
+  },
+  "anomalies": [
+    {
+      "date": "2026-10-15",
+      "description": "WIRE TRANSFER UNKNOWN BENEFICIARY",
+      "amount_base": -450000.0,
+      "anomaly_reason": "unusually large expense (robust z=6.5)"
+    }
+  ],
+  "warnings": [
+    "bank row 11: skipped (bad date/amount/currency)"
+  ],
+  "categoriser": "rules"
+}
